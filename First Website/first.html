@@ -9,6 +9,13 @@
             display: block;
             margin-bottom: 10px;
         }
+        table{
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
     </style>
 </head>
 <body>
@@ -76,6 +83,51 @@
             <input type="reset" value="Reset">
             <input type="submit" value="Submit">
         </form>
+    </section>
+
+    <section>
+        <table>
+            <caption>Big Bosses</caption>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Name</th>
+                    <th>Company</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bill Gates</td>
+                    <td>Microsoft</td>
+                    <td>$1000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Steve Jobs</td>
+                    <td>Apple</td>
+                    <td>$1200</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Larry Page</td>
+                    <td>Google</td>
+                    <td>$1100</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Mark Juku</td>
+                    <td>Facebook</td>
+                    <td>$1300</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Total Employee: 4</td>
+                </tr>
+            </tfoot>
+        </table>
     </section>
    </main>
 
