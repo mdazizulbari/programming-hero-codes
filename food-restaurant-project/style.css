@@ -71,7 +71,8 @@
   line-height: 28px;
   letter-spacing: 0%;
   text-align: center;
-  margin: 32px 0;
+  margin-bottom: 32px;
+  margin-top: 24px;
 }
 
 .btn {
@@ -87,7 +88,7 @@
   border-radius: 8px;
   background: rgb(82, 195, 3);
   border-radius: 8px;
-
+  border: none;
   color: rgb(255, 255, 255);
   font-family: Work Sans;
   font-size: 20px;
