@@ -12,6 +12,18 @@
 .dark-2 {
   color: #474747;
 }
+.secondary-bg{
+    background-color: #fff8f3;
+}
+.sect-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.sect-description{
+    font-size: 18px;
+    color: #757575;
+}
 .btn-primary {
   color: white;
   background: #fd6e0a;
@@ -70,4 +82,25 @@ nav ul li a {
 }
 .banner-profile-pic{
     width: 585px;
+}
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-between;
+}
+.item-description{
+    font-weight: 600;
 }
