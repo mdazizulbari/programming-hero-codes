@@ -40,8 +40,7 @@
 /* main styles */
 main {
   max-width: 1140px;
-  margin-top: 130px;
-  margin-bottom: 130px;
+  margin: 130px auto;
 }
 
 /* header styles */
